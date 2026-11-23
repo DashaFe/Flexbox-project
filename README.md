@@ -1,4 +1,6 @@
-# Pex — адаптивная вёрстка PSD-макета (React + CSS Modules)
+# Адрес: https://dashafe.github.io/Flexbox-project/
+
+# Адаптивная вёрстка PSD-макета (React + CSS Modules)
 
 Одностраничный сайт по макету `09.psd`. Стек: React 19, Vite, CSS Modules, Flexbox.
 
