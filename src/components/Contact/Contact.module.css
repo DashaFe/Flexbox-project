@@ -1,0 +1,35 @@
+.contact {
+  min-height: 460px;
+  padding: 76px 20px 80px 13vw;
+  color: #ffffff;
+  background: #e7526b;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.text {
+  max-width: 300px;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.mail {
+  display: inline-block;
+  margin-top: 28px;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    min-height: 0;
+    padding: 56px 24px;
+  }
+}

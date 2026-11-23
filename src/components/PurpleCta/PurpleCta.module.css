@@ -1,0 +1,68 @@
+.cta {
+  position: relative;
+  min-height: 551px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #4a4a4a;
+  background-image: url('../../assets/rush-1600.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Фиолетовая плёнка начинается на 94px ниже верхнего края — сверху остаётся серая полоса фото */
+.cta::before {
+  content: '';
+  position: absolute;
+  top: 94px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(88, 26, 108, 0.9);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 170px 20px 100px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.text {
+  max-width: 740px;
+  margin: 14px 0 32px;
+  font-size: 17px;
+  line-height: 25px;
+  color: #c196d4;
+}
+
+.caption {
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  .cta {
+    min-height: 0;
+    background-image: url('../../assets/rush-800.webp');
+  }
+
+  .content {
+    padding: 130px 20px 70px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+}

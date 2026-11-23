@@ -1,0 +1,19 @@
+.footer {
+  min-height: 367px;
+  padding: 40px 20px 60px 13vw;
+  color: #ffffff;
+  background: #2e3b4e;
+}
+
+.text {
+  max-width: 660px;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    min-height: 0;
+    padding: 36px 24px 44px;
+  }
+}

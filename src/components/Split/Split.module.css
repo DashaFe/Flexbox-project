@@ -1,0 +1,79 @@
+.split {
+  display: flex;
+  min-height: 494px;
+  color: #2e3b4e;
+  background: #ffffff;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  min-height: 516px;
+}
+
+.media {
+  position: relative;
+  flex: 0 0 39.3%;
+}
+
+.reverse .media {
+  flex-basis: 41.9%;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.body {
+  flex: 1;
+  min-width: 0;
+  padding: 94px 13vw 60px 6.4vw;
+}
+
+.reverse .body {
+  padding: 114px 4.3vw 60px 13vw;
+}
+
+.heading {
+  margin-bottom: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 30px;
+  color: #3a4659;
+}
+
+.text {
+  margin-top: 28px;
+  font-size: 13px;
+  line-height: 26px;
+  color: #5b6677;
+}
+
+@media (max-width: 900px) {
+  .split,
+  .reverse {
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .media,
+  .reverse .media {
+    flex: 0 0 auto;
+    height: 300px;
+  }
+
+  .body,
+  .reverse .body {
+    padding: 44px 24px 56px;
+  }
+}
