@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://dashafe.github.io/Flexbox-project/sitemap.xml
