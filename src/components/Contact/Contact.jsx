@@ -2,7 +2,7 @@ import styles from './Contact.module.css';
 
 export default function Contact() {
   return (
-    <section className={styles.contact} id="contact" aria-labelledby="contact-title">
+    <div className={styles.contact} id="contact" aria-labelledby="contact-title">
       <h2 id="contact-title" className={styles.title}>
         Get in touch
       </h2>
@@ -13,6 +13,6 @@ export default function Contact() {
       <a className={styles.mail} /*href="mailto:help@help.com"*/>
         help@help.com
       </a>
-    </section>
+    </div>
   );
 }

@@ -10,9 +10,8 @@
   background-size: cover;
 }
 
-/* Фиолетовая плёнка начинается на 94px ниже верхнего края — сверху остаётся серая полоса фото */
 .cta::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 94px;
   left: 0;

@@ -14,9 +14,8 @@
   background-size: cover;
 }
 
-/* «Язычок» тёмного блока сверху */
 .cta::before {
-  content: '';
+  content:"";
   position: absolute;
   top: 0;
   left: 50%;

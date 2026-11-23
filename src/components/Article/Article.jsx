@@ -5,7 +5,7 @@ import avatar from '../../assets/avatar-94.webp';
 
 export default function Article() {
   return (
-    <section className={styles.wrapper} aria-labelledby="article-title">
+    <div className={styles.wrapper} aria-labelledby="article-title">
       <img
         className={styles.image}
         src={article1600}
@@ -28,6 +28,6 @@ export default function Article() {
           <span className={styles.name}>Blaz Robar, god like web designer</span>
         </p>
       </article>
-    </section>
+    </div>
   );
 }

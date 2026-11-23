@@ -5,7 +5,7 @@ import hero1600 from '../../assets/hero-1600.webp';
 
 export default function Hero() {
   return (
-    <section className={styles.hero}>
+    <div className={styles.hero}>
       <img
         className={styles.image}
         src={hero1600}
@@ -25,6 +25,6 @@ export default function Hero() {
         <Button href="#how-it-works">Get Started Today</Button>
         <p className={styles.caption}>Lorem ipsum dolor sit amet, consectetur</p>
       </div>
-    </section>
+    </div>
   );
 }

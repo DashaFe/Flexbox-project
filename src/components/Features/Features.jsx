@@ -12,7 +12,7 @@ const TEXT =
 
 export default function Features() {
   return (
-    <section className={styles.features} id="how-it-works" aria-labelledby="features-title">
+    <div className={styles.features} id="how-it-works" aria-labelledby="features-title">
       <h2 id="features-title" className={styles.visuallyHidden}>
         How it works
       </h2>
@@ -24,6 +24,6 @@ export default function Features() {
           </li>
         ))}
       </ul>
-    </section>
+    </div>
   );
 }

@@ -2,7 +2,7 @@ import styles from './Split.module.css';
 
 export default function Split({ id, reverse = false, heading, lead, text, image }) {
   return (
-    <section className={`${styles.split} ${reverse ? styles.reverse : ''}`} id={id}>
+    <div className={`${styles.split} ${reverse ? styles.reverse : ''}`} id={id}>
       <div className={styles.media}>
         <img
           className={styles.image}
@@ -21,6 +21,6 @@ export default function Split({ id, reverse = false, heading, lead, text, image 
         <p className={styles.lead}>{lead}</p>
         <p className={styles.text}>{text}</p>
       </div>
-    </section>
+    </div>
   );
 }

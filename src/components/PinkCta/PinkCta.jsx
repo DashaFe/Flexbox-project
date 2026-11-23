@@ -3,7 +3,7 @@ import styles from './PinkCta.module.css';
 
 export default function PinkCta() {
   return (
-    <section className={styles.cta} id="services" aria-labelledby="pink-cta-title">
+    <div className={styles.cta} id="services" aria-labelledby="pink-cta-title">
       <h2 id="pink-cta-title" className={styles.title}>
         Wicked &amp; whack, bang bang boo!
       </h2>
@@ -14,6 +14,6 @@ export default function PinkCta() {
       <Button href="#contact" variant="white">
         Get Started Today
       </Button>
-    </section>
+    </div>
   );
 }
